@@ -6,13 +6,12 @@ function calculateSum() {
     let calculate = betaldSumma - totalSumma;
 
     const result = document.getElementById("result");
+
+   if (isNaN(totalSumma, betaldSumma)) {
+       alert("enter a valid number")
+   } else {
     result.innerText = "du skall få  tillbaka" + " " + calculate + " " + "kr";
 
-    // if ( result === isNaN()) {
-    //     result.innerText = "insert valid number"
-    // } else {
-    //     result.innerText = "du skall få  tillbaka" + " " + calculate + " " + "kr";
-
-    // }
+   }
 }
 
