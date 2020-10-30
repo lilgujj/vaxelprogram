@@ -7,6 +7,10 @@ function calculateSum() {
 
     const result = document.getElementById("result");
 
+
+
+
+    
    if (isNaN(totalSumma, betaldSumma)) {
        alert("enter a valid number")
    } else {
